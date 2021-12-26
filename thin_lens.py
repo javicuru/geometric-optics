@@ -144,7 +144,7 @@ class OptAxis:
         plt.plot([self.start, self.end], [0, 0], 'k', linewidth=.5)
 
 
-def ray_tracing(x_obj, y_obj, n0, n, r1, r2, invert_x_axis, color_lens='blue', color_ray_f1='red', color_ray_f2='lime',
+def ray_tracing(x_obj, y_obj, n0, n, r1, r2, invert_x_axis=False, color_lens='blue', color_ray_f1='red', color_ray_f2='lime',
                 color_ray_centre='gray'):
     """
     Compute ray tracing for thin lens
